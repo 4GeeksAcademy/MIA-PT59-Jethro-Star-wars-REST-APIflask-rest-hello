@@ -102,7 +102,7 @@ class Starship(db.Model):
     def serialize(self):
         return {
             "id": self.id,
-            "starship_cost_in_credit": self.starship_cost_in_credit,
+            "starship_cost_in_Credit": self.starship_cost_in_Credit,
             "starship_length" : self.starship_length,
             "starship_manufacturer" : self.starship_manufacturer,
             "starship_model" : self.starship_model,
